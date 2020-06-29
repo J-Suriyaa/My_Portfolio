@@ -1,0 +1,15 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "My portfolion using ExpressJS and implementing PUG templating engine.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Jeyasuriyaa Jeyakumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}

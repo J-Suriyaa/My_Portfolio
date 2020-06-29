@@ -1,0 +1,27 @@
+doctype html
+html
+ head
+  title My Portfolio
+  link(rel='stylesheet' href='bower_components/bootstrap/css/bootstrap.css')
+  link(rel='stylesheet' href='bower_components/bootstrap/css/bootstrap-responsive.css')
+ body
+  nav.navbar.navbar-default
+  .container-fluid
+    .navbar-header
+    ul.nav.navbar-nav
+      li.active
+        a(href='/') Home
+      li
+        a(href='/about_me') About Me
+      li
+        a(href='/projects') Projects
+      li
+        a(href='/services') Services     
+      li
+        a(href='/contact_me') Contact Me
+
+
+  .container
+   block content
+
+script(src='/bower_components/bootstrap/js/bootstrap.js')

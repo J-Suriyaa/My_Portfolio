@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1 #{title}
+  br
+  .container
+   form
+    label(for='fname') First Name
+    input#fname(type='text', name='firstname', placeholder='Your name..')
+    label(for='lname') Last Name
+    input#lname(type='text', name='lastname', placeholder='Your last name..')
+    label(for='email')  E-mail
+    input#email.form-control(type='email', name='email', placeholder='Your Email')
+    label(for='subject') Subject
+    textarea#subject(name='subject', placeholder='Write something..', style='height:200px')
+    br
+    button(type='submit') Submit
+    br
+    include partials/footer.pug
